@@ -1,12 +1,12 @@
 import { Col, Row } from "antd";
 import CTA from "./cta";
-import home from "../assets/home.png";
+import intro from "../assets/intro.png";
 
 function IntroTitle({ className }: { className?: string }) {
   return (
     <p className={`title ${className}`}>
-      Discover Your <br />
-      Personal Style Companion
+      Boost Your <br />
+      Productivity with Nature
     </p>
   );
 }
@@ -26,16 +26,16 @@ function Intro({ className = "" }: { className?: string }) {
         <div className="description text-sm md:text-2xl md:mt-6 text-center md:text-left">
           <p>
             <b>
-              <i>Struggling to find your perfect style?</i>
+              <i>Did you know trees can enhance focus and creativity?</i>
             </b>
-            <br /> Stylemate's expert stylists are here to help!
+            <br /> Some trees, like the Bamboo Palm and Peace Lily, not only
+            purify the air but also create a calming ambiance that helps improve
+            concentration and reduce stress.
           </p>
           <p className="mt-3 md:mt-4">
-            We take the time to understand you fully, from your age to your
-            lifestyle, ensuring personalized recommendations tailored just for
-            you. With attention to every detail, we're dedicated to elevating
-            your style journey. Welcome to Stylemate, your ultimate fashion
-            solution.
+            Whether you’re working from home or in an office, incorporating
+            greenery into your space can significantly boost productivity.
+            Discover the best trees to enhance your workflow today!
           </p>
         </div>
         <CTA className="mt-6 md:mt-8 h-12 w-52" />
@@ -45,8 +45,11 @@ function Intro({ className = "" }: { className?: string }) {
         md={8}
         span={24}
       >
-        <IntroTitle className="text-2xl md:hidden text-center font-semibold" />
-        <img src={home} alt="treezy" className="mt-5 md:mt-0 w-40 md:w-80" />
+        <img
+          src={intro}
+          alt="Trees that boost productivity"
+          className="mt-5 md:mt-0 w-40 md:w-80"
+        />
       </Col>
     </Row>
   );

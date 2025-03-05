@@ -2,6 +2,7 @@ import { Layout } from "antd";
 import bgPatchRed from "../assets/background-patch.svg";
 import bgPatchBlue from "../assets/bg-patch-blue.svg";
 import Intro from "./intro";
+import Process from "./process";
 
 const { Content } = Layout;
 function ContentComponent() {
@@ -23,6 +24,7 @@ function ContentComponent() {
         className="hidden md:block fixed bottom-20 right-[380px] z-10 h-72"
       />
       <Intro />
+      <Process className="mt-11 md:mt-24" />
     </Content>
   );
 }
