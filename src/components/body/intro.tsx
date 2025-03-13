@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
-import CTA from "./cta";
-import intro from "../assets/intro.png";
+import CTA from "../cta";
+import intro from "../../assets/intro.png";
 
 function IntroTitle({ className }: { className?: string }) {
   return (
@@ -19,10 +19,11 @@ function Intro({ className = "" }: { className?: string }) {
     >
       <Col
         className="hero-text-container mt-5 md:mt-36 flex flex-col items-center md:items-start"
-        md={16}
+        md={16} //for medium and large screen col 16/24  = 66.7^
         span={24}
       >
         <IntroTitle className="hidden md:text-5xl md:block" />
+
         <div className="description text-sm md:text-2xl md:mt-6 text-center md:text-left">
           <p>
             <b>
@@ -40,6 +41,7 @@ function Intro({ className = "" }: { className?: string }) {
         </div>
         <CTA className="mt-6 md:mt-8 h-12 w-52" />
       </Col>
+
       <Col
         className="hero-illustration-container mt-4 md:mt-20 flex flex-col items-center justify-center"
         md={8}

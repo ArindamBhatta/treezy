@@ -1,6 +1,6 @@
 import { Layout, Affix } from "antd";
-import treezyLogo from "../assets/logo.png";
-import CTA from "./cta";
+import treezyLogo from "../../assets/logo.png";
+import CTA from "../cta";
 
 const { Header } = Layout;
 

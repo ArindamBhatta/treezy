@@ -1,8 +1,10 @@
 import { Layout } from "antd";
-import bgPatchRed from "../assets/background-patch.svg";
-import bgPatchBlue from "../assets/bg-patch-blue.svg";
+import bgPatchRed from "../../assets/background-patch.svg";
+import bgPatchBlue from "../../assets/bg-patch-blue.svg";
 import Intro from "./intro";
-import Process from "./process";
+import Process from "./consultant";
+import Features from "./feature";
+import Outro from "./outro";
 
 const { Content } = Layout;
 function ContentComponent() {
@@ -25,6 +27,8 @@ function ContentComponent() {
       />
       <Intro />
       <Process className="mt-11 md:mt-24" />
+      <Features className="mt-6 md:mt-24" />
+      <Outro className="mt-11 md:mt-28 " />
     </Content>
   );
 }
