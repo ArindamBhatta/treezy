@@ -19,3 +19,10 @@ Ant Design (AntD) provides a grid system based on Flexbox, which helps to create
    Specifies how many columns out of 24 a <Col> should occupy.
    span={24} means the column takes up the full width (since the total grid has 24 parts).
    span={12} would take half the width.
+
+<!--
+
+
+
+sm:, md:, lg:, xl:, and 2xl
+ -->

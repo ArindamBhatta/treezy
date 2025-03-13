@@ -1,9 +1,9 @@
 import { Layout } from "antd";
-import treezyLogo from "../assets/treezy_logo.png";
-import fbIcon from "../assets/fb-icon.svg";
-import instaIcon from "../assets/insta-icon.svg";
-import linkedinIcon from "../assets/linkedin-icon.svg";
-import mailIcon from "../assets/mail-icon.svg";
+import treezyLogo from "../../assets/treezy_logo.png";
+import fbIcon from "../../assets/fb-icon.svg";
+import instaIcon from "../../assets/insta-icon.svg";
+import linkedinIcon from "../../assets/linkedin-icon.svg";
+import mailIcon from "../../assets/mail-icon.svg";
 
 const { Footer } = Layout;
 

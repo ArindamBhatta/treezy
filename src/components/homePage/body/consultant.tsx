@@ -1,7 +1,7 @@
 import { Row, Col } from "antd";
-import personalConsultation from "../../assets/personal_consultation.png";
-import appRecommendations from "../../assets/app_recommendations.png";
-import onGoingSupport from "../../assets/on_going_support.png";
+import personalConsultation from "../../../assets/personal_consultation.png";
+import appRecommendations from "../../../assets/app_recommendations.png";
+import onGoingSupport from "../../../assets/on_going_support.png";
 
 function Step({
   img,

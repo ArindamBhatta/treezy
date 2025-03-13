@@ -1,8 +1,8 @@
 import { Row, Col } from "antd";
-import treeCareIllustration from "../../assets/tree_care_tip.png";
-import suggestedTree from "../../assets/suggest_tree.png";
-import deskManagement from "../../assets/desk_management.png";
-import SeamlessShopping from "../../assets/bye_shell.png";
+import treeCareIllustration from "../../../assets/tree_care_tip.png";
+import suggestedTree from "../../../assets/suggest_tree.png";
+import deskManagement from "../../../assets/desk_management.png";
+import SeamlessShopping from "../../../assets/bye_shell.png";
 
 function Feature({
   img,

@@ -1,5 +1,5 @@
 import { Row, Col } from "antd";
-import outroIllustration from "../../assets/review_your_opinion.jpg";
+import outroIllustration from "../../../assets/review_your_opinion.jpg";
 import CTA from "../cta";
 
 function Outro({ className = "" }: { className?: string }) {

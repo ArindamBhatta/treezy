@@ -1,6 +1,6 @@
 import { Layout } from "antd";
-import bgPatchRed from "../../assets/background-patch.svg";
-import bgPatchBlue from "../../assets/bg-patch-blue.svg";
+import bgPatchRed from "../../../assets/background-patch.svg";
+import bgPatchBlue from "../../../assets/bg-patch-blue.svg";
 import Intro from "./intro";
 import Process from "./consultant";
 import Features from "./feature";

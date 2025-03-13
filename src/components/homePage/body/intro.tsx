@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import CTA from "../cta";
-import intro from "../../assets/intro.png";
+import intro from "../../../assets/intro.png";
 
 function IntroTitle({ className }: { className?: string }) {
   return (
