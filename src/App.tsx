@@ -5,6 +5,8 @@ import LandingPage from "./containers/LandingPage";
 import BuyerPage from "./containers/BuyerPage";
 import SellsPage from "./containers/sellerPage";
 function App() {
+  console.log(process.env.REACT_APP_APPWRITE_URL);
+
   return (
     <Router>
       <div className="w-full">
