@@ -1,5 +1,5 @@
 import { Col, Row } from "antd";
-import CTA from "../cta";
+import CTA from "../../container/logout";
 import intro from "../../../assets/intro.png";
 
 function IntroTitle({ className }: { className?: string }) {

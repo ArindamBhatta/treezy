@@ -1,17 +1,12 @@
 interface AppConfig {
-  appwriteUrl: string;
-  appwriteProjectId: string;
-  appwriteDatabaseId: string;
-  appwriteCollectionId: string;
-  appwriteBucketId: string;
+  supabaseUrl: string;
+  supabaseAnonKey: string;
+  // Add other Supabase configuration as needed
 }
 
 const config: AppConfig = {
-  appwriteUrl: String(process.env.REACT_APP_APPWRITE_URL),
-  appwriteProjectId: String(process.env.REACT_APP_APPWRITE_PROJECT_ID),
-  appwriteDatabaseId: String(process.env.REACT_APP_APPWRITE_DATABASE_ID),
-  appwriteCollectionId: String(process.env.REACT_APP_APPWRITE_COLLECTION_ID),
-  appwriteBucketId: String(process.env.REACT_APP_APPWRITE_BUCKET_ID),
+  supabaseUrl: String(process.env.REACT_APP_SUPABASE_URL),
+  supabaseAnonKey: String(process.env.REACT_APP_SUPABASE_ANON_KEY),
 };
 
 export default config;

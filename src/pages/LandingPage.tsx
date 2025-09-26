@@ -1,5 +1,5 @@
 import { Layout } from "antd";
-import Header from "../components/homePage/header/header";
+import Header from "../components/container/header";
 import Content from "../components/homePage/body/content";
 import Footer from "../components/homePage/footer";
 
