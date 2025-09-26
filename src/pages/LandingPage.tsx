@@ -1,7 +1,7 @@
 import { Layout } from "antd";
 import Header from "../components/container/header";
 import Content from "../components/homePage/body/content";
-import Footer from "../components/homePage/footer";
+import Footer from "../components/Footer/footer";
 
 const LandingPage = () => (
   <div className="w-full">

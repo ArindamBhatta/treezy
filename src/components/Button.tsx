@@ -1,0 +1,29 @@
+import React from "react";
+
+const Button = ({
+  children,
+  type = "button",
+  bgColor = "bg-blue-600",
+  textColor = "text-white",
+  className = "",
+  ...props
+}: {
+  children: React.ReactNode;
+  type?: "button" | "submit" | "reset";
+  bgColor?: string;
+  textColor?: string;
+  className?: string;
+  [key: string]: any;
+}) => {
+  return (
+    <button
+      type={type}
+      className={`${bgColor} ${textColor} ${className}`}
+      {...props}
+    >
+      {children}
+    </button>
+  );
+};
+
+export default Button;
